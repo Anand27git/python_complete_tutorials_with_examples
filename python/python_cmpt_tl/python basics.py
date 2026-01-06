@@ -76,3 +76,26 @@ print(10 ** 3)  # 10 power of 3
 x = x + 3
 x += 3  # line no 77 expression and 78 both are same
 print(x)
+
+#Working with numbers
+import math
+
+print(round(2.9))
+print(abs(-2.9))
+
+math.ceil(2.2)
+print(math.ceil(2.2))
+
+#Type conversions
+x = input ("x: ")
+print(f"x: {x}, y: {y}")
+
+#int(x)
+#float(x)
+#bool(x)
+#str( x) -- this are the built in type converstion in python
+
+
+#bool considered as Falsy and true
+
+# "", 0 ,None -- these are considered as  Falsy
