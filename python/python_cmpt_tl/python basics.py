@@ -77,7 +77,7 @@ x = x + 3
 x += 3  # line no 77 expression and 78 both are same
 print(x)
 
-#Working with numbers
+# Working with numbers
 import math
 
 print(round(2.9))
@@ -86,16 +86,41 @@ print(abs(-2.9))
 math.ceil(2.2)
 print(math.ceil(2.2))
 
-#Type conversions
-x = input ("x: ")
+# Type conversions
+x = input("x: ")
 print(f"x: {x}, y: {y}")
 
-#int(x)
-#float(x)
-#bool(x)
-#str( x) -- this are the built in type converstion in python
+# int(x)
+# float(x)
+# bool(x)
+# str( x) -- this are the built-in type conversation in python
 
 
-#bool considered as Falsy and true
+# bool considered as Falsy and true
 
 # "", 0 ,None -- these are considered as  Falsy
+
+# primitive types
+
+fruit = "Apple"
+print(fruit[1:-1])
+
+# comparission Operators
+
+# "bag" > "apple" -->True
+# "bag" == "BAG"  -->False
+
+ord("b")
+ord("B")  # shows asci code of char
+
+# Conditional statement
+
+temperature = 35
+if temperature > 30:
+    print("It's warm")
+    print("Drink Water") # white space need to be there to execute both the statements
+elif temperature > 20:
+    print("It's nice")
+else:
+    print("It's cold")
+print("Done")
