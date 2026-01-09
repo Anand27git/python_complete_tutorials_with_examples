@@ -157,6 +157,54 @@ else:
     print("Not Eligible")
     
     
+# FOR LOOP IN PYTHON
+successful = True
+for number in range(3):
+    print("Attempt",number + 1, (number) * ".")
+    if successful:
+        print("Successful")
+        break  # to come out of loop we need to use if and break statement
+else:
+    print("Attempted 3 times and failed")
+    
+    
+# Nested Loop
+
+for x in range(5): # outer loop
+    for y in range(3): # nested innner loop
+        print(f"({x},{y})")
+        
+#Iterable
+for x in "python"
+print(x)
+
+#Iteration using list
+
+for x in [1, 2, 3 ,4]
+print(x)
+
+#while loop
+
+number = 100
+
+while number > 0:
+    print(number)
+    number //= 2
+    
+command = ""
+while command != "quit":
+    command = input (">")
+    print("ECHO", COMMAND) 
+    #INFINITE LOOP
+    if command.lower() == "quitt":
+        break
+
+
+
+    
+    
+
+    
     
     
     
